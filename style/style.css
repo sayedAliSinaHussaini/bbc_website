@@ -1,0 +1,136 @@
+#signIn{
+    background-image: url("images/signIn-bg.jpg");
+    background-size: cover;
+    
+}
+#closeBTN button{
+   background-color: transparent;
+   float: right;
+   border: 0mm; 
+}
+#closeBTN{
+    padding: 20px;
+}
+
+#signInForm form #title{
+    color: white;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+#signInForm form td{
+   text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+}
+#signInForm {
+   text-align: center;
+    padding: 90px;
+   
+}
+#signInForm form td input{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    
+    
+    font-weight: 900;
+ }
+ #signInForm form tr td #button{
+    background-color: orange;
+   color: white;
+    border: 0ch;
+    
+   
+ }
+ #containers{
+     margin: 100px;
+     padding-top: 200px;
+     background-color: chocolate;
+    
+     width: 200px;
+ }
+
+ .header {
+    display: flex;
+    flex-direction: column;
+ 
+    background-blend-mode: saturation;
+    background-position: center;
+   color: white;
+
+    justify-content: center;
+    height: 500px;
+}
+
+
+.navbar{
+   height: 50px;
+    color: white;
+    background-color: black;
+    
+}
+
+.World_news{
+    width: 100%-100px;
+   
+  
+    margin: 50px;
+    
+}
+
+.cards{
+    justify-content: space-around;
+   
+}
+
+.card{
+    margin: 10px;
+   width: 22rem;
+}
+
+.card-body a{
+    text-decoration:wavy;
+    color: black;
+    font-weight: lighter;
+}
+.card-title{
+    font-weight: 900;
+}
+.sport_news{
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+.sport_news h1{
+   padding-left: 30px;
+   padding-bottom: 10px;
+   color: white;
+}
+.sport_news .card{
+    background-color: black;
+    color: white;
+    border-color: azure;
+    
+ }
+ .sport_news .card-body a{
+   
+    color: white;
+    
+ }
+
+ .footer {
+     
+    
+    
+     margin-top: 3cm;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
